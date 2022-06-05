@@ -148,6 +148,7 @@ Opens you a window and let's you draw things. Comes with a pixel perfect 2d rend
 
 - [ziglibs/ini](https://github.com/ziglibs/ini) - A teeny tiny ini parser.
 - [kubkon/zig-yaml](https://github.com/kubkon/zig-yaml) - YAML parser for Zig
+- [LewisGaul/zig-nestedtext](https://github.com/LewisGaul/zig-nestedtext) - NestedText (format based on YAML) parser for Zig
 
 ## Android/iOS/VR/WASM
 
@@ -180,7 +181,7 @@ Opens you a window and let's you draw things. Comes with a pixel perfect 2d rend
 
 # Help improve this page
 
-Feel free to improve [AllYourCodebase](https://github.com/AllYourCodebase/AllYourCodebase.github.io) by sending a PR! Please ensure entires on this page are:
+Feel free to improve [AllYourCodebase](https://github.com/AllYourCodebase/AllYourCodebase.github.io) by sending a PR! Please ensure entries on this page are:
 
 * Alphabetically ordered by project name
 * Actively maintained (at least one commit in the last 12 months, or broadly used by the community.)
