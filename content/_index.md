@@ -9,5 +9,16 @@ layout: index
   All Your Codebase Are Belong To Us
 </h1>
 
+# What is Zig?
+Zig is a general-purpose programming language and toolchain<br>
+for maintaining **robust**, **optimal**, and **reusable** software.
 
-- [Gamedev](/gamedev/)
+Official website:
+[https://ziglang.org](https://ziglang.org)
+
+**[See the development status of Zig](/zig/)**
+
+# Ecosystem Development
+See the development status of salient parts of the Zig ecosystem.
+
+- [Game Dev](/gamedev/)
