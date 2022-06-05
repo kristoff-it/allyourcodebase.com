@@ -96,6 +96,7 @@ Opens you a window and let's you draw things. Comes with a pixel perfect 2d rend
 
 ## GUI
 
+- [https://github.com/MasterQ32/TextEditor](https://github.com/MasterQ32/TextEditor) - A backbone for text editors. No rendering, no input, but everything else.
 - TODO: [help us populate this section!](#help-improve-this-page)
 
 ## Text rendering
@@ -105,6 +106,8 @@ Opens you a window and let's you draw things. Comes with a pixel perfect 2d rend
 ## Image formats
 
 - [zigimg/zigimg](https://github.com/zigimg/zigimg) - for reading and writing different image formats
+- [TinyVG/sdk](https://github.com/TinyVG/sdk) - An alternative binary encoded vector graphics format.
+- [MasterQ32/zig-qoi](https://github.com/MasterQ32/zig-qoi) - Quite OK Image format encoder/decoder written in Zig
 
 ## Math
 
@@ -114,6 +117,7 @@ Opens you a window and let's you draw things. Comes with a pixel perfect 2d rend
 ## Physics
 
 - [zig-gamedev/zbullet](https://github.com/michal-z/zig-gamedev/blob/main/libs/zbullet) - Zig bindings and C API for Bullet physics library
+- [MasterQ32/zig-ode](https://github.com/MasterQ32/zig-ode) - OpenDynamics Engine build support package
 
 ## Audio
 
@@ -164,6 +168,7 @@ Opens you a window and let's you draw things. Comes with a pixel perfect 2d rend
 - [zig-gamedev/zmesh](https://github.com/michal-z/zig-gamedev/blob/main/libs/zmesh) - loading, generating, processing and optimizing triangle meshes
 - [zig-gamedev/znoise](https://github.com/michal-z/zig-gamedev/blob/main/libs/znoise) - Zig bindings for FastNoiseLite
 - [zig-gamedev/ztracy](https://github.com/michal-z/zig-gamedev/blob/main/libs/ztracy) - support for CPU profiling with Tracy
+- [MasterQ32/zig-assimp](https://github.com/MasterQ32/zig-assimp) - Open Asset Importer Library build package
 
 # Tools
 
