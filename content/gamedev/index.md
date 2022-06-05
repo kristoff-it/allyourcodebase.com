@@ -55,7 +55,7 @@ PBR demos, procedural meshes, and DirectX raytracing. Bullet physics.
 
 zero-graphics is an application framework based on OpenGL ES 2.0. Runs on desktop machines, Android phones and the web 
 
-Opens you a window and let's you draw things. Comes with a pixel-perfect 2D renderer and maybe some day even with a bit of a 3D api.
+Opens you a window and let's you draw things. Comes with a pixel perfect 2d renderer and a basic 3D API.
 
 
 </td>
