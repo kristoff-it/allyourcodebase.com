@@ -28,7 +28,7 @@ and even some
 [miscompilations](https://github.com/ziglang/zig/issues?q=is%3Aopen+is%3Aissue+label%3Amiscompilation).
 
 Some companies are preparing to be early adopters for when Zig becomes more 
-suitable for production use. One example is [Coil](https;//coil.com) which is
+suitable for production use. One example is [Coil](https://coil.com), which is
 working on [TigerBeetle](https://tigerbeetle.com).
 
 We know of [some cases](https://www.youtube.com/watch?v=124wdTckHNY) where Zig 
