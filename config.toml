@@ -1,6 +1,6 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://allyourcodebase.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'All Your Codebase'
 theme = "default"
 
 [markup.goldmark.renderer]
