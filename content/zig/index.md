@@ -22,8 +22,10 @@ companies.
 
 The Zig programming language is not being used in production by any big
 company and it's currently not recommended to use Zig for mission-critical
-software as the language is still under development and there are known
-bugs and miscompilaitons.
+software as the language is still under development and there are 
+[known bugs](https://github.com/ziglang/zig/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
+and even some 
+[miscompilations](https://github.com/ziglang/zig/issues?q=is%3Aopen+is%3Aissue+label%3Amiscompilation).
 
 Some companies are preparing to be early adopters for when Zig becomes more 
 suitable for production use. One example is [Coil](https;//coil.com) which is
