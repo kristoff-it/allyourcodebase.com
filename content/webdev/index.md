@@ -33,6 +33,16 @@ looking under the hood of modern web development.
    Basic HTTP server implementation in Zig
 - [truemedian/hzzp](https://github.com/truemedian/hzzp)
    A I/O agnostic HTTP/1.1 parser and encoder for Zig.
+   
+## TLS
+
+- [alexnask/iguanaTLS](https://github.com/alexnask/iguanaTLS)
+  Minimal, experimental TLS 1.2 implementation in Zig
+- [MasterQ32/zig-bearssl](https://github.com/MasterQ32/zig-bearssl)
+  A BearSSL binding for Zig
+- [haze/zig-libressl](https://github.com/haze/zig-libressl)
+  LibreSSL stream wrappers for Zig
+
 
 ## Webby file formats
 
