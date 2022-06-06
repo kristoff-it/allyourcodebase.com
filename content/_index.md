@@ -19,6 +19,7 @@ Official website:
 ## Ecosystem Development
 See the development status of salient parts of the Zig ecosystem.
 
+- [Embedded](/embedded/)
 - [Videogames](/gamedev/)
 - [Web](/webdev/)
 - [Other Languages & Ecosystems](/ecosystems/)
