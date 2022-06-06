@@ -1,11 +1,15 @@
 ---
-title: "Zig & Other Languages"
+title: "Zig & Other Languages / Ecosystems"
 draft: false
 ---
 
 ## Maturity
-Zig's ability to empower other languages is very effective as it relies mainly
-on the Zig compiler toolchain, the most mature component of the Zig project.
+Zig's ability to empower other languages and ecosystems relies mainly on the 
+Zig compiler toolchain, the most mature component of the Zig project.
+
+# Build Systems
+## Bazel
+- [motiejus/bazel-zig-cc](https://sr.ht/~motiejus/bazel-zig-cc/#known-issues)
 
 # Languages
 

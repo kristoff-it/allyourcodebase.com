@@ -21,4 +21,4 @@ See the development status of salient parts of the Zig ecosystem.
 
 - [Videogames](/gamedev/)
 - [Web](/webdev/)
-- [Other Languages](/langs/)
+- [Other Languages & Ecosystems](/ecosystems/)
