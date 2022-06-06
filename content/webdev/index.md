@@ -13,7 +13,7 @@ looking under the hood of modern web development.
 
 
 ## Databases
-- [TigerBeetle](https://tigerbeetle.com) is distributed database for financial transactions written in Zig
+- [TigerBeetle](https://tigerbeetle.com) is a distributed database for financial transactions written in Zig
 
 ### Sqlite
 - [leroycep/sqlite-zig](https://github.com/leroycep/sqlite-zig)
