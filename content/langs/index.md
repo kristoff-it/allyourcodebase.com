@@ -4,7 +4,7 @@ draft: false
 ---
 
 ## Maturity
-Zig's ability to empower other languages is very mature as it relies mainly
+Zig's ability to empower other languages is very effective as it relies mainly
 on the Zig compiler toolchain, the most mature component of the Zig project.
 
 # Languages
