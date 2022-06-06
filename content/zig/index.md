@@ -56,8 +56,8 @@ compilations speed and lowering memory usage (while compiling). See
 [Zig Roadmap 2023](https://www.youtube.com/watch?v=AqDdWEiSwMM) for more info.
 
 ## Official Package Manager 
-Zig will have an official package manager. Its development is scheduled right
-after the self-hosted compiler is released. For now the choices that will 
+Zig will have an official package manager. Its development is scheduled for 
+right after the self-hosted compiler is released. For now the choices that will 
 probably be part of the first design iteration are:
 
 - No official package repository
@@ -69,7 +69,7 @@ Async/Await is implemented in the language but still lacks one important
 operator that would allow to `await` on multiple async frames at once.
 Aside from that, it's already possible to write libraries that can work 
 seamlessly in both blocking and evented I/O mode, like 
-[zig-okredis](https://github.com/kristoff-it/zig-okredis), aswell as 
+[zig-okredis](https://github.com/kristoff-it/zig-okredis), as well as 
 full-fledged evented applications like [bork](https://github.com/kristoff-it/bork).
 
 The event loop is part of the standard libary, which means that it's possible
