@@ -46,9 +46,11 @@ Mach is for creating games, graphical applications, and desktop/mobile/web apps:
 <td>
 
 
-zig-gamedev is a collection of sample applications and cross-platform, standalone, composable libraries. See [Roadmap](https://github.com/michal-z/zig-gamedev/wiki/Roadmap) and [Progress Reports](https://github.com/michal-z/zig-gamedev/wiki/Progress-Reports) for the details.
+zig-gamedev is a "toolbox of libraries" for game developers. It contains libraries, samples and (in the future) complete mini-games.
+Project provides solutions for: cross-platform graphics, multi-threaded physics, SIMD math, procedural techniques, profiling and more.
+Audio and networking solutions will be added soon.
 
-PBR demos, procedural meshes, and DirectX raytracing. Bullet physics.
+Samples features raytracing, PBR, mesh shaders, procedural meshes, physics and more.
 
 </td>
 <td>
