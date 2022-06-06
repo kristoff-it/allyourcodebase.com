@@ -32,4 +32,4 @@ suitable for production use. One example is [Coil](https://coil.com), which is
 working on [TigerBeetle](https://tigerbeetle.com).
 
 We know of [some cases](https://www.youtube.com/watch?v=124wdTckHNY) where Zig 
-is being used in poduction despite its immaturity.
+is being used in production despite its immaturity.
