@@ -32,7 +32,9 @@ looking under the hood of modern web development.
 - [Luukdegram/apple_pie](https://github.com/Luukdegram/apple_pie)
    Basic HTTP server implementation in Zig
 - [truemedian/hzzp](https://github.com/truemedian/hzzp)
-   A I/O agnostic HTTP/1.1 parser and encoder for Zig.
+   A I/O agnostic HTTP/1.1 parser and encoder for Zig
+- [haze/zelda](https://github.com/haze/zelda)
+   async aware, Zig native http client, using zig-libressl and hzzp
    
 ## TLS
 
