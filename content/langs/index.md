@@ -14,6 +14,8 @@ on the Zig compiler toolchain, the most mature component of the Zig project.
 
 ## Go
 - [Zig Makes Go Cross Compilation Just Work](https://dev.to/kristoff/zig-makes-go-cross-compilation-just-work-29ho)
+- [Building SQLite with CGo for (Almost) Every OS](https://zig.news/kristoff/building-sqlite-with-cgo-for-every-os-4cic)
+
 
 ## JavaScript
 - [evanwashere/napi.zig](https://github.com/evanwashere/napi.zig)
