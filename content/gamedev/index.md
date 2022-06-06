@@ -114,6 +114,7 @@ Opens you a window and let's you draw things. Comes with a pixel perfect 2d rend
 
 - [zig-gamedev/zmath](https://github.com/michal-z/zig-gamedev/blob/main/libs/zmath) - SIMD math library for game developers
 - [ziglibs/zlm](https://github.com/ziglibs/zlm) - linear mathemathics library, built around the OpenGL coordinate system and fully generic on the basic data type.
+- [kooparse/zalgebra](https://github.com/kooparse/zalgebra) - Linear algebra library for games and real-time graphics
 
 ## Physics
 
@@ -170,6 +171,7 @@ Opens you a window and let's you draw things. Comes with a pixel perfect 2d rend
 - [zig-gamedev/znoise](https://github.com/michal-z/zig-gamedev/blob/main/libs/znoise) - Zig bindings for FastNoiseLite
 - [zig-gamedev/ztracy](https://github.com/michal-z/zig-gamedev/blob/main/libs/ztracy) - support for CPU profiling with Tracy
 - [MasterQ32/zig-assimp](https://github.com/MasterQ32/zig-assimp) - Open Asset Importer Library build package
+- [kooparse/zgltf](https://github.com/kooparse/zgltf) - A glTF parser for Zig codebase
 
 # Tools
 
