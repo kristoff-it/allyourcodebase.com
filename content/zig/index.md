@@ -73,7 +73,7 @@ seamlessly in both blocking and evented I/O mode, like
 full-fledged evented applications like [bork](https://github.com/kristoff-it/bork).
 
 The event loop is part of the standard libary, which means that it's possible
-to use cusom implementations with relative ease. The current implementation 
+to use custom implementations with relative ease. The current implementation 
 in the standard library is of PoC quality. Improvements on the event loop depend 
 on finalizing the design of async/await and so it also depends on the 
 self-hosted compiler.
@@ -81,12 +81,12 @@ self-hosted compiler.
 // TODO: list some event loop implementations by the community
 
 News about evented I/O support in Zig:
-- Sep 2020 [Joran Dirk Greef adds io_uring support to the stdlib](https://github.com/ziglang/zig/pull/6356)
-- May 2021 [kprotty joins the core team](https://old.reddit.com/r/Zig/comments/no28b9/please_welcome_kprotty_to_the_core_zig_team/)
-- Apr 2022 [kprotty's Futex RWLock algorithm gets merged into Rust](https://github.com/rust-lang/rust/pull/95801)
 - Apr 2022 [kprotty contributes std.Treap](https://github.com/ziglang/zig/pull/11444) 
   and [a few](https://github.com/ziglang/zig/pull/11523) other 
   [improvements](https://github.com/ziglang/zig/pull/11497) to Zig's atomic primitives
+- Apr 2022 [kprotty's Futex RWLock algorithm gets merged into Rust](https://github.com/rust-lang/rust/pull/95801)
+- May 2021 [kprotty joins the core team](https://old.reddit.com/r/Zig/comments/no28b9/please_welcome_kprotty_to_the_core_zig_team/)
+- Sep 2020 [Joran Dirk Greef adds io_uring support to the stdlib](https://github.com/ziglang/zig/pull/6356)
 
 ## Standard Library
 Currently the Zig standard library is the result of organic growth. While fairly
