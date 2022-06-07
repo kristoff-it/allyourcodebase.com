@@ -14,12 +14,12 @@ for maintaining **robust**, **optimal**, and **reusable** software.
 Official website:
 [https://ziglang.org](https://ziglang.org)
 
-**[See the development status of Zig](/zig/)**
+**[See the development status of Zig](/zig/)** <small>⏱️ {{< last-change "zig" >}}</small>
 
 ## Ecosystem Development
 See the development status of salient parts of the Zig ecosystem.
 
-- [Embedded](/embedded/)
-- [Videogames](/gamedev/)
-- [Web](/webdev/)
-- [Other Languages & Ecosystems](/ecosystems/)
+- [Embedded](/embedded/) <small>⏱️ {{< last-change "embedded" >}}</small>
+- [Videogames](/gamedev/) <small>⏱️ {{< last-change "gamedev" >}}</small>
+- [Web](/webdev/) <small>⏱️ {{< last-change "webdev" >}}</small>
+- [Other Languages & Ecosystems](/ecosystems/) <small>⏱️ {{< last-change "ecosystems" >}}</small>

@@ -2,6 +2,7 @@ baseURL = 'https://allyourcodebase.com/'
 languageCode = 'en-us'
 title = 'All Your Codebase'
 theme = "default"
+enableGitInfo = true
 
 [markup.goldmark.renderer]
 unsafe = true

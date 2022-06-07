@@ -1,5 +1,8 @@
 {{ define "main" }}
   <h1> {{ .Title }} </h1>
   <a href="/" style="align-self:center;">⟵ back to the homepage</a>
-  {{ .Content }}
+  <span style="align-self:center;"><i><small>
+    Last update: {{ .Lastmod.Format "2006/01/02" -}}
+  </small></i></span>
+  {{ .Content }} 
 {{ end }}
