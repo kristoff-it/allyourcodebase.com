@@ -105,7 +105,7 @@ The official website lists in the Learn section a link to a build of the
 [stdlib docs](https://ziglang.org/documentation/master/std/). Those docs are
 marked as experimental and as such are not linked on the front page of 
 ziglang.org and a red banner at the top recommends reading the stdlib source
-code instead, liking to [a guide on how to do so](https://github.com/ziglang/zig/wiki/How-to-read-the-standard-library-source-code).
+code instead, linking to [a guide on how to do so](https://github.com/ziglang/zig/wiki/How-to-read-the-standard-library-source-code).
 
 Those docs are generated automatically by the bootstrap compiler using a 
 strategy that, among various things, makes it impossible for the docs to see
