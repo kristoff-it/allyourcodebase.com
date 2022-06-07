@@ -4,7 +4,6 @@ draft: false
 ---
 
 {{% details "Commonly Asked Questions" false %}}
-
 ## When will Zig reach v1.0?
 Zig will be tagged v1 once:
 - all planned language features have been implemented
@@ -23,7 +22,7 @@ company. We will never concede board seats to any big tech company.
 [Learn more about the ZSF](https://ziglang.org/zsf/)
 {{% /details %}}
 
-## Is Zig production-ready?
+## Production-Ready Status
 The Zig compiler toolchain is being used to cross-compile C/C++/ObjC
 [by Uber](https://jakstys.lt/2022/how-uber-uses-zig/) and a few other 
 companies.
