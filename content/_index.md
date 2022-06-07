@@ -19,7 +19,11 @@ Official website:
 ## Ecosystem Development
 See the development status of salient parts of the Zig ecosystem.
 
-- [Embedded](/embedded/) <small>⏱️ {{< last-change "embedded" >}}</small>
-- [Videogames](/gamedev/) <small>⏱️ {{< last-change "gamedev" >}}</small>
-- [Web](/webdev/) <small>⏱️ {{< last-change "webdev" >}}</small>
-- [Other Languages & Ecosystems](/ecosystems/) <small>⏱️ {{< last-change "ecosystems" >}}</small>
+- [Embedded](/embedded/) <small>Last updated: {{< last-change "embedded" >}}</small>
+- [Videogames](/gamedev/) <small>Last updated: {{< last-change "gamedev" >}}</small>
+- [Web](/webdev/) <small>Last updated: {{< last-change "webdev" >}}</small>
+- [Other Languages & Ecosystems](/ecosystems/) <small>Last updated: {{< last-change "ecosystems" >}}</small>
+
+## Contribution
+
+Contribute to this website here: https://github.com/kristoff-it/allyourcodebase.com
