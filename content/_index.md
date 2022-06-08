@@ -14,7 +14,7 @@ for maintaining **robust**, **optimal**, and **reusable** software.
 Official website:
 [https://ziglang.org](https://ziglang.org)
 
-**[See the development status of Zig](/zig/)** <small>⏱️ {{< last-change "zig" >}}</small>
+**[See the development status of Zig](/zig/)** <small>Last updated: {{< last-change "zig" >}}</small>
 
 ## Ecosystem Development
 See the development status of salient parts of the Zig ecosystem.
