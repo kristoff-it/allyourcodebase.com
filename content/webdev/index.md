@@ -9,7 +9,7 @@ At this stage we recommend you consider Zig only if you're interested in
 looking under the hood of modern web development. 
 
 
-## Libraries / tools
+# Libraries / tools
 
 ## HTTP & related 
 - [ducdetronquito/h11](https://github.com/ducdetronquito/h11) 
