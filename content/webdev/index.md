@@ -11,17 +11,6 @@ looking under the hood of modern web development.
 
 ## Libraries / tools
 
-
-## Databases
-- [TigerBeetle](https://tigerbeetle.com) is a distributed database for financial transactions written in Zig
-
-### Sqlite
-- [leroycep/sqlite-zig](https://github.com/leroycep/sqlite-zig)
-- [vrishmann/zig-sqlite](https://github.com/vrischmann/zig-sqlite)
-
-### Redis
-- [kristoff-it/zig-okredis](https://github.com/kristoff-it/zig-okredis)
-
 ## HTTP & related 
 - [ducdetronquito/h11](https://github.com/ducdetronquito/h11) 
    I/O free state machine implementation of the HTTP/1.1 protocol.
@@ -45,6 +34,15 @@ looking under the hood of modern web development.
 - [haze/zig-libressl](https://github.com/haze/zig-libressl)
   LibreSSL stream wrappers for Zig
 
+## Databases
+- [TigerBeetle](https://tigerbeetle.com) is a distributed database for financial transactions written in Zig
+
+### Sqlite
+- [leroycep/sqlite-zig](https://github.com/leroycep/sqlite-zig)
+- [vrishmann/zig-sqlite](https://github.com/vrischmann/zig-sqlite)
+
+### Redis
+- [kristoff-it/zig-okredis](https://github.com/kristoff-it/zig-okredis)
 
 ## Webby file formats
 
