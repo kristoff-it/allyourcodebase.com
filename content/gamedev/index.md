@@ -83,6 +83,14 @@ Opens you a window and let's you draw things. Comes with a pixel perfect 2d rend
 
 # Libraries / tools
 
+## Console-specific
+
+### Playdate ([https://play.date](https://play.date)) 
+- [DanB91's build.zig](https://gist.github.com/DanB91/4236e82025bb21f2a0d7d72482e391d8)
+
+### Wii
+- [Zig + Wii](https://github.com/zig-wii)
+
 ## Graphics APIs
 
 - [hexops/mach-gpu-dawn](https://github.com/hexops/mach-gpu-dawn) - Google's Dawn WebGPU implementation, cross-compiled with Zig into a single static library. Powers both Mach engine and zig-gamedev.
