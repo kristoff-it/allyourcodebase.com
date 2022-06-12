@@ -89,7 +89,20 @@ Opens you a window and let's you draw things. Comes with a pixel perfect 2d rend
 - [DanB91's build.zig](https://gist.github.com/DanB91/4236e82025bb21f2a0d7d72482e391d8)
 
 ### Wii
+- [](https://github.com/knarkzel/zick/tree/master/src/game)
 - [Zig + Wii](https://github.com/zig-wii)
+
+### Oculus Quest
+
+- [SpexGuy/Zig-Oculus-Quest](https://github.com/SpexGuy/Zig-Oculus-Quest) - An example application for the Oculus Quest, written in Zig
+
+### Android/iOS
+- [MasterQ32/ZigAndroidTemplate](https://github.com/MasterQ32/ZigAndroidTemplate) - This repository contains a example on how to create a minimal Android app in Zig.
+- [kubkon/zig-ios-example](https://github.com/kubkon/zig-ios-example) - Minimal build.zig for targeting iOS 
+- [kubkon/zig-deploy](https://github.com/kubkon/zig-deploy) - Deploy your iOS apps written with Zig!
+
+### Virtual consoles
+- WASM-4: https://github.com/jsyrjala/jumper and [this forum thread](https://forum.ziggit.dev/t/awesome-tiny-games-in-11-programming-languages-wasm-4-jam-2022-results/63)
 
 ## Graphics APIs
 
@@ -161,19 +174,12 @@ Opens you a window and let's you draw things. Comes with a pixel perfect 2d rend
 - [ziglibs/ini](https://github.com/ziglibs/ini) - A teeny tiny ini parser.
 - [kubkon/zig-yaml](https://github.com/kubkon/zig-yaml) - YAML parser for Zig
 
-## Android/iOS/VR/WASM
-
-- [MasterQ32/ZigAndroidTemplate](https://github.com/MasterQ32/ZigAndroidTemplate) - This repository contains a example on how to create a minimal Android app in Zig.
-- [kubkon/zig-ios-example](https://github.com/kubkon/zig-ios-example) - Minimal build.zig for targeting iOS 
-- [kubkon/zig-deploy](https://github.com/kubkon/zig-deploy) - Deploy your iOS apps written with Zig!
-- [SpexGuy/Zig-Oculus-Quest](https://github.com/SpexGuy/Zig-Oculus-Quest) - An example application for the Oculus Quest, written in Zig
-- [alichay/zig-wasm3](https://github.com/alichay/zig-wasm3) - bindings (and build system integration) for Wasm3
-
 ## Scripting
 
 - [squeek502/zua](https://github.com/squeek502/zua) - An implementation of Lua 5.1 in Zig, for learning purposes 
 - [Vexu/bog](https://github.com/Vexu/bog) - Small, strongly typed, embeddable language.
 - [LoLa](https://lola.random-projects.net/) - an embeddable programming language for game scripting,
+- [alichay/zig-wasm3](https://github.com/alichay/zig-wasm3) - bindings (and build system integration) for Wasm3 interpreter
 
 ## Other
 
