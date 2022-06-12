@@ -89,7 +89,6 @@ Opens you a window and let's you draw things. Comes with a pixel perfect 2d rend
 - [DanB91's build.zig](https://gist.github.com/DanB91/4236e82025bb21f2a0d7d72482e391d8)
 
 ### Wii
-- [](https://github.com/knarkzel/zick/tree/master/src/game)
 - [Zig + Wii](https://github.com/zig-wii)
 
 ### Oculus Quest
