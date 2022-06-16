@@ -14,6 +14,7 @@ Zig compiler toolchain, the most mature component of the Zig project.
 # Languages
 
 ## Elixir
+- [burrito-elixir/burrito](https://github.com/burrito-elixir/burrito) Cross-platform Elixir Deployments.
 - [ityonemo/zigler](https://github.com/ityonemo/zigler) Zig NIFs for Elixir!
 
 ## Go

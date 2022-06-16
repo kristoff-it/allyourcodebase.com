@@ -90,6 +90,9 @@ Opens you a window and let's you draw things. Comes with a pixel perfect 2d rend
 
 ### Wii
 - [Zig + Wii](https://github.com/zig-wii)
+  
+### PSP
+- [zPSP-Dev/Zig-PSP](https://github.com/zPSP-Dev/Zig-PSP)
 
 ### Oculus Quest
 
