@@ -18,7 +18,7 @@ Libraries and bindings exist for most things, and general purpose engines/framew
 <table>
     <thead>
         <td style="text-align: center;"><h2><a href="https://machengine.org">Mach engine</a></h2><em>Game engine & graphics toolkit for the future.</em></td>
-        <td style="text-align: center;"><h2><a href="https://github.com/michal-z/zig-gamedev">zig-gamedev</a></h2><em>Building game development ecosystem for @ziglang! </em></td>
+        <td style="text-align: center;"><h2><a href="https://github.com/michal-z/zig-gamedev">zig-gamedev</a></h2><em>Libraries, samples and mini-games written in Zig</em></td>
         <td style="text-align: center;"><h2><a href="https://github.com/MasterQ32/zero-graphics">zero-graphics</a></h2><em>A very minimal OpenGL ES 2.0 library for Zig</em></td>
     </thead>
     <tbody>
@@ -47,10 +47,9 @@ Mach is for creating games, graphical applications, and desktop/mobile/web apps:
 
 
 zig-gamedev is a "toolbox of libraries" for game developers. It contains libraries, samples and (in the future) complete mini-games.
-Project provides solutions for: cross-platform graphics, multi-threaded physics, SIMD math, procedural techniques, profiling and more.
-Audio and networking solutions will be added soon.
+Project provides cross-platform solution for: graphics, audio, multi-threaded physics, SIMD math, procedural techniques, profiling and more.
 
-Samples features raytracing, PBR, mesh shaders, procedural meshes, physics and more.
+Sample applications feature raytracing, PBR, mesh shaders, procedural meshes, physics, audio and more.
 
 </td>
 <td>
@@ -148,6 +147,7 @@ Opens you a window and let's you draw things. Comes with a pixel perfect 2d rend
 
 ## Audio
 
+- [zig-gamedev/zaudio](https://github.com/michal-z/zig-gamedev/blob/main/libs/zaudio) - Zig bindings for [miniaudio](https://github.com/mackron/miniaudio) library
 - [zig-gamedev/zxaudio2](https://github.com/michal-z/zig-gamedev/blob/main/libs/zxaudio2) - helper library for working with XAudio2 (Windows library)
 
 ## Architecture
