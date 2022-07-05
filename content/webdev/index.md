@@ -40,6 +40,12 @@ looking under the hood of modern web development.
 ### Sqlite
 - [leroycep/sqlite-zig](https://github.com/leroycep/sqlite-zig)
 - [vrishmann/zig-sqlite](https://github.com/vrischmann/zig-sqlite)
+- [javier/zigqlite](https://chiselapp.com/user/javier/repository/zigqlite)
+  very minimal binding.  Uses comptime to define static type for records.  No pre-parsing of SQL commands.
+  
+### PostgreSQL
+- [javier/pgzig](https://chiselapp.com/user/javier/repository/pgzig)
+  async reimplementation of the PostgreSQL protocol, no dependencies.  pre-alpha.
 
 ### Redis
 - [kristoff-it/zig-okredis](https://github.com/kristoff-it/zig-okredis)
