@@ -28,6 +28,10 @@ Zig compiler toolchain, the most mature component of the Zig project.
 - [pluvial/vite-plugin-zig](https://github.com/pluvial/vite-plugin-zig)
 - [pluvial/node-zig](https://github.com/pluvial/node-zig/tree/main/packages/cli) npm install @ziglang/cli
 
+## Lua
+- [natecraddock/ziglua](https://github.com/natecraddock/ziglua) Complete ziggified wrapper around the C Lua API
+- [ranciere/zoltan](https://github.com/ranciere/zoltan) Sol-inspired minimalist Lua binding for Zig
+
 ## Python 
 - [ziglang/zig-pypi](https://github.com/ziglang/zig-pypi) pip install ziglang 
 
