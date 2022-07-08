@@ -104,6 +104,7 @@ Opens you a window and let's you draw things. Comes with a pixel perfect 2d rend
 
 ### Virtual consoles
 - WASM-4: https://github.com/jsyrjala/jumper and [this forum thread](https://forum.ziggit.dev/t/awesome-tiny-games-in-11-programming-languages-wasm-4-jam-2022-results/63)
+- TIC-80: https://github.com/nesbox/TIC-80 - Release comes with a Zig project ready to go in the examples folder, [more instructions here](https://github.com/nesbox/TIC-80/blob/main/templates/zig/)
 
 ## Graphics APIs
 
