@@ -121,7 +121,7 @@ Opens you a window and let's you draw things. Comes with a pixel perfect 2d rend
 - [MasterQ32/SDL.zig](https://github.com/MasterQ32/SDL.zig) - shallow wrapper around SDL that provides object API and error handling. Used by zero-graphics.
 
 ## GUI
-
+- [https://github.com/david-vanderson/gui](https://github.com/david-vanderson/gui) - Immediate mode UI for whole apps or tooling existing apps. SDL and Mach backends.  Easy to integrate.
 - [https://github.com/MasterQ32/TextEditor](https://github.com/MasterQ32/TextEditor) - A backbone for text editors. No rendering, no input, but everything else.
 - TODO: [help us populate this section!](#help-improve-this-page)
 
