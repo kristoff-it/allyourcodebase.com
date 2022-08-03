@@ -101,25 +101,13 @@ implemented.
 
 ## Standard Library Documentation
 The official website lists in the Learn section a link to a build of the 
-[stdlib docs](https://ziglang.org/documentation/master/std/). Those docs are
-marked as experimental and as such are not linked on the front page of 
-ziglang.org and a red banner at the top recommends reading the stdlib source
-code instead, linking to [a guide on how to do so](https://github.com/ziglang/zig/wiki/How-to-read-the-standard-library-source-code).
+[stdlib docs](https://ziglang.org/documentation/master/std/). 
 
-Those docs are generated automatically by the bootstrap compiler using a 
-strategy that, among various things, makes it impossible for the docs to see
-declarations that are never referenced, on top of being tightly integrated
-with the old compiler, making adding any improvement to it a waste of effort.
+These docs are marked as `beta` and as such you should expect to find bugs
+and missing information. The automated doc system is being actively worked on
+and [is accepting contributions](https://github.com/ziglang/zig/wiki/How-to-contribute-to-Autodoc).
 
-Loris Cro has started a new effort to implement automated doc generation for 
-the self-hosted compiler. You can learn more 
-[here](https://github.com/ziglang/zig/wiki/How-to-contribute-to-Autodoc), and 
-you can follow along with the livecoding sessions on 
-[Loris Cro's Twitch stream](https://twitch.tv/kristoff_it).
-
-The new doc implementation is far from complete, but it has already surpassed
-the old implementation in a few key areas and so it will soon be merged into
-master branch to replace the old code (while still maintaining the 
-*experimental* attribute).
-
-
+While stdlib docs are already mostly usable, we still recommend you familiarize
+yourself with [the stdlib source code](https://github.com/ziglang/zig/wiki/How-to-read-the-standard-library-source-code),
+as it will help you make up for the current deficienties of the automated doc
+system.
