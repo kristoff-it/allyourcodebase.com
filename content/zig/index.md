@@ -46,22 +46,31 @@ is being used in production despite its immaturity.
 so that we can pay more contributors for their time.**
 
 ## Self-Hosting 
-Zig is not self-hosted yet, but we're almost there. 
-Zig 0.10.0 will be released once the self-hosted compiler is ready to ship. 
-[Follow #89](https://github.com/ziglang/zig/issues/89) to track our progress. 
+
+Starting [from version 0.10.0](https://ziglang.org/download/0.10.0/release-notes.html), 
+Zig started shipping the self-hosted compiler.
+
+Version 0.10.0 still also includes the bootstrap compiler, which can be enabled
+with `-fstage1`. Starting from 0.11.0 (not yet released at the moment of writing)
+the bootstrap compiler will be deleted and all code will have to be build using
+the self-hosted implementation.
 
 Self-hosting is the first of a series of updates to Zig aimed at improving 
 compilations speed and lowering memory usage (while compiling). See 
 [Zig Roadmap 2023](https://www.youtube.com/watch?v=AqDdWEiSwMM) for more info.
 
 ## Official Package Manager 
-Zig will have an official package manager. Its development is scheduled for 
-right after the self-hosted compiler is released. For now the choices that will 
+Zig will have an official package manager. Its development will start after the
+release of the self-hosted compiler. For now the choices that will 
 probably be part of the first design iteration are:
 
 - No official package repository
 - Minimal Version Selection
 - v1+ packages can only depend on v1+ packages
+
+Andrew gave [a talk at Software You Can Love 2022](https://www.youtube.com/watch?v=stChOsejLEQ) 
+on the subject.
+
 
 ## Async/Await and Event Loop
 Async/Await is implemented in the language but still lacks one important 
@@ -71,15 +80,16 @@ seamlessly in both blocking and evented I/O mode, like
 [zig-okredis](https://github.com/kristoff-it/zig-okredis), as well as 
 full-fledged evented applications like [bork](https://github.com/kristoff-it/bork).
 
-The event loop is part of the standard libary, which means that it's possible
-to use custom implementations with relative ease. The current implementation 
+The event loop is part of the standard libary, which means that it will be eventually 
+possible to use custom implementations with relative ease. The current implementation 
 in the standard library is of PoC quality. Improvements on the event loop depend 
-on finalizing the design of async/await and so it also depends on the 
-self-hosted compiler.
+on finalizing the design of async/await.
+
 
 // TODO: list some event loop implementations by the community
 
 News about evented I/O support in Zig:
+- Oct 2022 ["Zig's I/O and Concurrency Story" by kprotty](https://www.youtube.com/watch?v=Ul8OO4vQMTw)
 - Apr 2022 [kprotty contributes std.Treap](https://github.com/ziglang/zig/pull/11444) 
   and [a few](https://github.com/ziglang/zig/pull/11523) other 
   [improvements](https://github.com/ziglang/zig/pull/11497) to Zig's atomic primitives
