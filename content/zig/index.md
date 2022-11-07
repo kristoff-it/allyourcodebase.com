@@ -52,7 +52,7 @@ Zig started shipping the self-hosted compiler.
 
 Version 0.10.0 still also includes the bootstrap compiler, which can be enabled
 with `-fstage1`. Starting from 0.11.0 (not yet released at the moment of writing)
-the bootstrap compiler will be deleted and all code will have to be build using
+the bootstrap compiler will be deleted and all code will have to be built using
 the self-hosted implementation.
 
 Self-hosting is the first of a series of updates to Zig aimed at improving 
