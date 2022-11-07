@@ -1,5 +1,5 @@
 <!doctype html><html><head><meta name=viewport content="width=device-width,initial-scale=1"><link rel=stylesheet href=/style.css><style>#content,body{display:flex;flex-direction:column}h1{align-self:center;text-align:center}#logo{padding:5px;max-height:100px}#content{max-width:900px}#content h1:nth-of-type(1){margin-top:0}</style></head><body><svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 140" height="140"><g fill="#f7a41d"><g><polygon points="46,22 28,44 19,30"/><polygon points="46,22 33,33 28,44 22,44 22,95 31,95 20,100 12,117 0,117 0,22" shape-rendering="crispEdges"/><polygon points="31,95 12,117 4,106"/></g><g><polygon points="56,22 62,36 37,44"/><polygon points="56,22 111,22 111,44 37,44 56,32" shape-rendering="crispEdges"/><polygon points="116,95 97,117 90,104"/><polygon points="116,95 100,104 97,117 42,117 42,95" shape-rendering="crispEdges"/><polygon points="150,0 52,117 3,140 101,22"/></g><g><polygon points="141,22 140,40 122,45"/><polygon points="153,22 153,117 106,117 120,105 125,95 131,95 131,45 122,45 132,36 141,22" shape-rendering="crispEdges"/><polygon points="125,95 130,110 106,117"/></g></g><style>#text{fill:#121212}@media(prefers-color-scheme:dark){#text{fill:#f2f2f2}}</style><g id="text"><g><polygon points="260,22 260,37 229,40 177,40 177,22" shape-rendering="crispEdges"/><polygon points="260,37 207,99 207,103 176,103 229,40 229,37"/><polygon points="261,99 261,117 176,117 176,103 206,99" shape-rendering="crispEdges"/></g><rect x="272" y="22" shape-rendering="crispEdges" width="22" height="95"/><g><polygon points="394,67 394,106 376,106 376,81 360,70 346,67" shape-rendering="crispEdges"/><polygon points="360,68 376,81 346,67"/><path d="M394 106c-10.2 7.3-24 12-37.7 12-29 0-51.1-20.8-51.1-48.3.0-27.3 22.5-48.1 52-48.1 14.3.0 29.2 5.5 38.9 14l-13 15c-7.1-6.3-16.8-10-25.9-10-17 0-30.2 12.9-30.2 29.5.0 16.8 13.3 29.6 30.3 29.6 5.7.0 12.8-2.3 19-5.5L394 106z"/></g></g></svg><div id=content><h1>The Zig Programming Language</h1><a href=/ style=align-self:center>⟵ back to the homepage</a>
-<span style=align-self:center><i><small>Last update: 2022/08/03</small></i></span>
+<span style=align-self:center><i><small>Last update: 2022/11/07</small></i></span>
 <details><summary>Commonly Asked Questions</summary><h2 id=when-will-zig-reach-v10>When will Zig reach v1.0?</h2><p>Zig will be tagged v1 once:</p><ul><li>all planned language features have been implemented</li><li>the full language spec has been published</li><li>all known bugs have been solved</li><li>stdlib has gone through a full release cycle without any change</li></ul><p><strong>If you want to help us move forward faster,
 <a href=https://ziglang.org/zsf/>consider donating</a>
 so that we can pay more contributors for their time.</strong></p><h2 id=is-zig-made-by-a-big-tech-company>Is Zig made by a big tech company?</h2><p>No, Zig is supported by the Zig Software Foundation, a 501(c)(3) non-profit
@@ -15,22 +15,24 @@ suitable for production use. One example is <a href=https://coil.com>Coil</a>, w
 working on <a href=https://tigerbeetle.com>TigerBeetle</a>.</p><p>We know of <a href="https://www.youtube.com/watch?v=124wdTckHNY">some cases</a> where Zig
 is being used in production despite its immaturity.</p><p><strong>If you want to help us move forward faster,
 <a href=https://ziglang.org/zsf/>consider donating</a>
-so that we can pay more contributors for their time.</strong></p><h2 id=self-hosting>Self-Hosting</h2><p>Zig is not self-hosted yet, but we&rsquo;re almost there.
-Zig 0.10.0 will be released once the self-hosted compiler is ready to ship.
-<a href=https://github.com/ziglang/zig/issues/89>Follow #89</a> to track our progress.</p><p>Self-hosting is the first of a series of updates to Zig aimed at improving
+so that we can pay more contributors for their time.</strong></p><h2 id=self-hosting>Self-Hosting</h2><p>Starting <a href=https://ziglang.org/download/0.10.0/release-notes.html>from version 0.10.0</a>,
+Zig started shipping the self-hosted compiler.</p><p>Version 0.10.0 still also includes the bootstrap compiler, which can be enabled
+with <code>-fstage1</code>. Starting from 0.11.0 (not yet released at the moment of writing)
+the bootstrap compiler will be deleted and all code will have to be build using
+the self-hosted implementation.</p><p>Self-hosting is the first of a series of updates to Zig aimed at improving
 compilations speed and lowering memory usage (while compiling). See
-<a href="https://www.youtube.com/watch?v=AqDdWEiSwMM">Zig Roadmap 2023</a> for more info.</p><h2 id=official-package-manager>Official Package Manager</h2><p>Zig will have an official package manager. Its development is scheduled for
-right after the self-hosted compiler is released. For now the choices that will
-probably be part of the first design iteration are:</p><ul><li>No official package repository</li><li>Minimal Version Selection</li><li>v1+ packages can only depend on v1+ packages</li></ul><h2 id=asyncawait-and-event-loop>Async/Await and Event Loop</h2><p>Async/Await is implemented in the language but still lacks one important
+<a href="https://www.youtube.com/watch?v=AqDdWEiSwMM">Zig Roadmap 2023</a> for more info.</p><h2 id=official-package-manager>Official Package Manager</h2><p>Zig will have an official package manager. Its development will start after the
+release of the self-hosted compiler. For now the choices that will
+probably be part of the first design iteration are:</p><ul><li>No official package repository</li><li>Minimal Version Selection</li><li>v1+ packages can only depend on v1+ packages</li></ul><p>Andrew gave <a href="https://www.youtube.com/watch?v=stChOsejLEQ">a talk at Software You Can Love 2022</a>
+on the subject.</p><h2 id=asyncawait-and-event-loop>Async/Await and Event Loop</h2><p>Async/Await is implemented in the language but still lacks one important
 operator that would allow to <code>await</code> on multiple async frames at once.
 Aside from that, it&rsquo;s already possible to write libraries that can work
 seamlessly in both blocking and evented I/O mode, like
 <a href=https://github.com/kristoff-it/zig-okredis>zig-okredis</a>, as well as
-full-fledged evented applications like <a href=https://github.com/kristoff-it/bork>bork</a>.</p><p>The event loop is part of the standard libary, which means that it&rsquo;s possible
-to use custom implementations with relative ease. The current implementation
+full-fledged evented applications like <a href=https://github.com/kristoff-it/bork>bork</a>.</p><p>The event loop is part of the standard libary, which means that it will be eventually
+possible to use custom implementations with relative ease. The current implementation
 in the standard library is of PoC quality. Improvements on the event loop depend
-on finalizing the design of async/await and so it also depends on the
-self-hosted compiler.</p><p>// TODO: list some event loop implementations by the community</p><p>News about evented I/O support in Zig:</p><ul><li>Apr 2022 <a href=https://github.com/ziglang/zig/pull/11444>kprotty contributes std.Treap</a>
+on finalizing the design of async/await.</p><p>// TODO: list some event loop implementations by the community</p><p>News about evented I/O support in Zig:</p><ul><li>Oct 2022 <a href="https://www.youtube.com/watch?v=Ul8OO4vQMTw">&ldquo;Zig&rsquo;s I/O and Concurrency Story&rdquo; by kprotty</a></li><li>Apr 2022 <a href=https://github.com/ziglang/zig/pull/11444>kprotty contributes std.Treap</a>
 and <a href=https://github.com/ziglang/zig/pull/11523>a few</a> other
 <a href=https://github.com/ziglang/zig/pull/11497>improvements</a> to Zig&rsquo;s atomic primitives</li><li>Apr 2022 <a href=https://github.com/rust-lang/rust/pull/95801>kprotty&rsquo;s Futex RWLock algorithm gets merged into Rust</a></li><li>May 2021 <a href=https://old.reddit.com/r/Zig/comments/no28b9/please_welcome_kprotty_to_the_core_zig_team/>kprotty joins the core team</a></li><li>Sep 2020 <a href=https://github.com/ziglang/zig/pull/6356>Joran Dirk Greef adds io_uring support to the stdlib</a></li></ul><h2 id=standard-library>Standard Library</h2><p>Currently the Zig standard library is the result of organic growth. While fairly
 complete and reasonably well designed, it was never the focus of the main
