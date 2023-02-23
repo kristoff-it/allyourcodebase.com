@@ -55,6 +55,11 @@ looking under the hood of modern web development.
 ### JSON
 - Available in the Zig standard library under `std.json`
 
+### CBOR
+- [javier_guerra/borzig](https://codeberg.org/javier_guerra/borzig)
+  comptime encoder-decoder for primitives, arrays, tuples, structs, etc.
+  CDDL parser, soon to add code generation for spec-based protocols.
+
 ### XML
 - [mitchellh/zig-libxml2](https://github.com/mitchellh/zig-libxml2)
 
