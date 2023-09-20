@@ -114,6 +114,7 @@ Opens you a window and let's you draw things. Comes with a pixel perfect 2d rend
 - [MasterQ32/zig-opengl](https://github.com/MasterQ32/zig-opengl) - pragmatic binding to different OpenGL versions, uses the official OpenGL Registry by Khronos to generate the Zig code. Used by zero-graphics.
 - [ziglibs/zgl](https://github.com/ziglibs/zgl) - a thin, type-safe binding for OpenGL on top of libepoxy.
 - [zig-gamedev/z3d12](https://github.com/michal-z/zig-gamedev/blob/main/libs/zd3d12) - helper library for working with DirectX 12
+- [floooh/sokol-zig](https://github.com/floooh/sokol-zig) - Zig bindings for the [sokol headers](https://github.com/floooh/sokol).
 
 ## Windowing
 
